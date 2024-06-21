@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  /* position: fixed;
+  top: 0; */
+}
+.top{
+  /* width: 100%; */
+  height: 40px;
+  background-color:hsl(350, 46%, 42%);
+  text-align: right;
+}
+button{
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.bottom{
+  /* width: 100%; */
+  width: 213vh;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  background-color:hsl(352, 60%, 95%) ;
+  color: rgb(99, 29, 29);
+  padding: 20px;
+  margin-right: 40px;
+}
+#right a{
+  margin-right: 30px;
+  text-decoration: none;
+  color: rgb(99, 29, 29);
+
+}
+.bottom h2{
+  margin: auto;
+}
+.up{
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 20vh;
+
+}
+#upr{
+width: 100%;
+}
+.midProduct img{
+  /* width: 30%; */
+  width: 50vh;
+  height: 70vh;
+  margin: 30px;
+
+}
+.midProduct{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.single img{
+  width: 40vh;
+  height: 20vh;
+  margin-top: 9vh;
+  
+}
+.single-product-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 13vh 20vh;
+  
+}
+.single-product-box button{
+  background-color: hsl(350, 46%, 42%);
+  color: aliceblue;
+  width: 100px;
+  height: 45px;
+  border: 5px solid hsl(351, 31%, 75%);
+  border-radius: 5px;
+}
+.container{
+  display: flex;
+  margin-top: 20vh;
+  margin-left: 20vh;
+}
+#image img{
+  width: 60vh;
+  height: 70vh;
+}
+
+#content {
+  width: 100vh;
+  margin: auto;
+}
+
+#content button{
+  background-color: hsl(350, 46%, 42%);
+  color: aliceblue;
+  width: 100px;
+  height: 45px;
+  border: 5px solid hsl(351, 31%, 75%);
+  border-radius: 5px;
+}
+
+#in-img img{
+  width: 40vh;
+  height: 50vh;
+}
+
+#cartPage{
+  width: 70%;
+  margin: 20vh 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cartCalculation{
+  width: 40vh;
+  height: 10vh;
+  padding: 6vh;
+  border-radius: 30px;
+  background-color:hsl(352, 60%, 95%) ;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20vh ;
+  position: fixed;
+  left: 130vh;
+}
+#login{
+  margin: auto;
+  display: flex;
+  gap: 50vh;
+  margin-left: 20vh;
+}
